@@ -4,8 +4,8 @@ This project involves edge detection  by processing lidar data using Python. It 
 ## How to use
 the API function edgedetection() takes lidar data and perform edge detection and returns yor the angle and verical distance of that edge wrt lidar position\
 ***readings from lidar must be list of lists***
-***like this [[angle1,reading1],[angle2,reading2],[angle3,reading3].....]***
-***inf in many lidar means infinte which is beyond the range of the lidar***
+***like this [[angle1,reading1],[angle2,reading2],[angle3,reading3].....]***\
+***inf in many lidar means infinte which is beyond the range of the lidar***\
 ***here is lidar data samples***
 ### Functions
 #### `edgeDetection(readings)`
